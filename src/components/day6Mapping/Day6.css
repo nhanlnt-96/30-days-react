@@ -1,0 +1,50 @@
+.table-container {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+
+.table-container .item {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    font-size: 1.5em;
+}
+
+.progress-container {
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-container .progress-item {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-container .progress-item .country {
+    width: 20%;
+}
+
+.progress-container .progress-item .progress-bar-container {
+    width: 70%;
+}
+
+.progress-container .progress-item .population {
+    width: 10%;
+    padding-left: 10px;
+}
+
+.progress-container .progress-item .progress-bar {
+    height: 20px;
+    background-color: darkkhaki;
+}
